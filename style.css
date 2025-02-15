@@ -167,4 +167,5 @@ input[type="text"]:focus {
 
 .todo__item--edit .todo__task {
   display: none;
+  text-decoration: none !important; /* Remove line-through during edit */
 }
